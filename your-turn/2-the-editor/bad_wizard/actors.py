@@ -29,7 +29,8 @@ class Wizard(Creature):
         print("{} rolls {}...".format(creature.name, creature_roll))
 
         if my_roll >= creature_roll:
-            print("The wizard has handily triumphed over {}".format(creature.name))
+            print("The wizard has handily triumphed over {}".format(
+                creature.name))
             return True
         else:
             print("The wizard has been DEFEATED!!!")
